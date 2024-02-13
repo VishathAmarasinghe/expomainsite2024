@@ -1,0 +1,26 @@
+.sliderimages{
+    width: 100%;
+    /* border: 2px solid green; */
+    
+}
+
+.carousel .slider-wrapper{
+    width: 100%;
+    
+}
+
+.carousel .thumb{
+    display: none;
+}
+
+.imagesslide{
+    width: 100%;
+    object-fit: cover;
+    /* height: 250px; */
+    
+}
+
+.imagebox{
+    height: 250px;
+    /* border: 2px solid red; */
+}

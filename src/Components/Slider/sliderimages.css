@@ -1,0 +1,34 @@
+.sliderimages{
+    width: 100%;
+    object-fit: cover;
+    /* border: 2px solid green; */
+    
+}
+
+.carousel .slider-wrapper{
+    width: 100%;
+    
+}
+
+.carousel .thumb{
+    display: none;
+}
+
+.imagesslide{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    border: 2px solid #B8915A;
+    border-radius: 15px;
+
+    /* margin-right: 20px; */
+    /* object-fit: cover; */
+    /* height: 100%; */
+    
+}
+
+.imageMargin{
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
