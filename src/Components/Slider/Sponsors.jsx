@@ -2,15 +2,24 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./sliderimages.css";
-import evonsis from "./evonsys.png";
-import fortude from "./fortude.png";
-import gtn from "./gnt.png";
-import icbt from "./icbt.png";
-import logicare from "./logicare.png";
-import mas from "./mas.png";
-import mawbima from "./mawbima.png";
+import evonsis from "./evonsys.webp";
+import fortude from "./fortude.webp";
+import gtn from "./gnt.webp";
+import icbt from "./icbt.webp";
+import logicare from "./logicare.webp";
+import mas from "./mas.webp";
+import mawbima from "./printed1.webp";
 import xignix from "./xigenix.png";
-import cylondaily from "./cylondaily.png";
+import cylondaily from "./printed2.webp";
+import steam from "./digital.webp";
+import connex from './connex.webp';
+import elephanthouse from './elephanthouse.webp';
+import expert from './expert.webp';
+import industrytv from './industrytv.webp';
+import lsge from './lsge.webp';
+import strechline from './strechline.webp';
+import vidulakara from './vidulakara.webp';
+
 
 
 
@@ -51,7 +60,7 @@ const Sponsors = () => {
         responsive={responsive}
         infinite={true}
         autoPlay={true}
-        transitionDuration={500}
+        transitionDuration={200}
         customTransition="all 1s linear"
         arrows={false}
       >
@@ -81,6 +90,30 @@ const Sponsors = () => {
         </div>
         <div className="imageMargin">
           <img src={cylondaily} className="imagesslide" />
+        </div>
+        <div className="imageMargin">
+          <img src={steam} className="imagesslide" />
+        </div>
+        <div className="imageMargin">
+          <img src={connex} className="imagesslide" />
+        </div>
+        <div className="imageMargin">
+          <img src={elephanthouse} className="imagesslide" />
+        </div>
+        <div className="imageMargin">
+          <img src={expert} className="imagesslide" />
+        </div>
+        <div className="imageMargin">
+          <img src={industrytv} className="imagesslide" />
+        </div>
+        <div className="imageMargin">
+          <img src={lsge} className="imagesslide" />
+        </div>
+        <div className="imageMargin">
+          <img src={strechline} className="imagesslide" />
+        </div>
+        <div className="imageMargin">
+          <img src={vidulakara} className="imagesslide" />
         </div>
       </Carousel>
       </div>

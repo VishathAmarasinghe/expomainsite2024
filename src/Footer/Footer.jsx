@@ -1,10 +1,10 @@
 import React from "react";
-import footerlogo from "../assets/expwhite.png";
-import fb from '../assets/fb.png'
-import ig from '../assets/instagram.png'
-import linkedin from '../assets/linkedin.png'
-import phone from '../assets/phone1.png'
-import email from '../assets/mail.png'
+import footerlogo from "../assets/expwhite.webp";
+import fb from '../assets/fb.webp'
+import ig from '../assets/instagram.webp'
+import linkedin from '../assets/linkedin.webp'
+import phone from '../assets/phone1.webp'
+import email from '../assets/mail.webp'
 
 
 const Footer = () => {

@@ -31,9 +31,10 @@ export default function App() {
       <Testimonials/>
       <About/>
       {/* <Gallarynew/> */}
-      <OC/>
+      
       <Gallery/>
       <Sponsors/>
+      <OC/>
       <Footer/>
     </div>
   )

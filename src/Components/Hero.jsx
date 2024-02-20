@@ -1,9 +1,9 @@
 import React from 'react'
-import expologo from '../assets/expwhite.png';
+import expologo from '../assets/expwhite.webp';
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen  z-10  bg-cover bg-center bg-[url('./assets/mainback.png')]
+    <div className="w-full h-screen  z-10  bg-cover bg-center bg-[url('./assets/backgroundnewtwo.webp')]
     flex flex-col align-middle justify-center items-center
     
     

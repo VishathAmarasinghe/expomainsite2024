@@ -79,9 +79,10 @@ export default function Navbar() {
             
             <a  href="#about" onClick={()=>{showNavbar();blurchecker()}} smooth>ABOUT</a>
             <a  href="#ourstory" onClick={()=>{showNavbar();blurchecker()}} smooth>OUR STORY</a>
-            <a  href="#ourteam" onClick={()=>{showNavbar();blurchecker()}} smooth>OUR TEAM</a>
+           
             <a  href="#memories" onClick={()=>{showNavbar();blurchecker()}} smooth>MEMORIES</a>
             <a  href="#sponsors" onClick={()=>{showNavbar();blurchecker()}} smooth>SPONSORS</a>
+            <a  href="#ourteam" onClick={()=>{showNavbar();blurchecker()}} smooth>OUR TEAM</a>
             <a href="#contact" onClick={()=>{showNavbar();blurchecker()}} smooth>CONTACT</a>
             
             <a className='ml-3 mr-0 m-0'  href="https://emagazine.exposition.lk/" target="_blank">

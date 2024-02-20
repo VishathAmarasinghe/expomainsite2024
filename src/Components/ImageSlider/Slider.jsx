@@ -3,21 +3,14 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import './sliderimages.css';
-import test1 from '../../assets/test1.jpg'
-import test2 from '../../assets/test2.png'
-import test3 from '../../assets/test3.png'
-import test4 from '../../assets/test4.png'
-import test5 from '../../assets/test5.png'
+import test1 from '../../assets/test1.webp'
+import test2 from '../../assets/test2.webp'
+import test3 from '../../assets/test3.webp'
+import test4 from '../../assets/test4.webp'
+import test5 from '../../assets/test5.webp'
 import { Stack } from "@mui/material";
 
 
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-// import img4 from "../Assets/Images"
-// import img5 from "../../assets/gallery/5.jpg"
-// import img6 from "../../assets/gallery/6.jpg"
-// import img7 from "../../assets/gallery/7.jpg"
-// import img8 from "../../assets/gallery/8.jpg"
-// import img9 from "../../assets/gallery/9.jpg"
 
 
 const responsive = {

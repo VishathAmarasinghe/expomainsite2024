@@ -9,7 +9,7 @@ import { maincontaintArray } from '../datasource/data';
 
 const Pathsection = () => {
   return (
-    <div className="w-full  pb-8 z-10 bg-cover bg-center bg-[url('./assets/whitebg.png')]  flex flex-col md:space-x-10 lg:space-x-10 space-y-7  md:flex-row lg:flex-row  align-middle justify-center items-center
+    <div className="w-full  pb-8 z-10 bg-cover bg-center bg-[url('./assets/whitebg.webp')]  flex flex-col md:space-x-10 lg:space-x-10 space-y-7  md:flex-row lg:flex-row  align-middle justify-center items-center
     ">
         <PathCard  image={card2} desctext={maincontaintArray[0].description} url={maincontaintArray[0].sourceLink} title={maincontaintArray[0].title}  />
         <PathCard image={card4} desctext={maincontaintArray[1].description} url={maincontaintArray[1].sourceLink} title={maincontaintArray[1].title}  />

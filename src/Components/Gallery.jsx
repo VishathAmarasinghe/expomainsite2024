@@ -1,19 +1,24 @@
 import React from 'react'
-import ex3 from "../assets/ex3.jpg"
-import ex1 from "../assets/ex1.jpg"
-import ex2 from "../assets/ex2.jpg"
-import ex4 from "../assets/ex4.jpg"
-import ex5 from "../assets/ex5.jpg"
-import ex6 from "../assets/ex6.jpg"
-import ex7 from "../assets/ex7.jpg"
-import ex8 from "../assets/ex8.jpg"
-import ex9 from "../assets/ex9.jpg"
-import ex11 from "../assets/ex11.jpg"
-import ex12 from "../assets/ex12.jpg"
-import ex13 from "../assets/ex13.jpg"
-import ex14 from "../assets/ex14.jpg"
-import ex15 from "../assets/ex15.jpg"
-import ex16 from "../assets/ex16.jpg"
+import ex3 from "../assets/ex3.webp"
+import ex1 from "../assets/ex1.webp"
+import ex2 from "../assets/ex2.webp"
+import ex4 from "../assets/ex4.webp"
+import ex5 from "../assets/ex5.webp"
+import ex6 from "../assets/ex6.webp"
+import ex7 from "../assets/ex7.webp"
+import ex8 from "../assets/ex8.webp"
+import ex9 from "../assets/ex9.webp"
+import ex11 from "../assets/ex11.webp"
+import ex12 from "../assets/ex12.webp"
+import ex13 from "../assets/ex13.webp"
+import ex14 from "../assets/ex14.webp"
+import ex15 from "../assets/ex15.webp"
+import ex16 from "../assets/ex16.webp"
+import ex23 from '../assets/ex23.webp'
+import ex24 from '../assets/ex24.webp'
+import ex25 from '../assets/ex25.webp'
+import ex27 from '../assets/ex27.webp'
+import ex28 from '../assets/ex28.webp'
 
 const Gallery = () => {
   return (
@@ -117,14 +122,35 @@ const Gallery = () => {
         <div data-aos="zoom-in-up">
           <img
             className="h-auto max-w-full rounded-lg object-cover object-center"
-            src={ex4}
+            src={ex27}
             alt="gallery-photo"
           />
         </div>
         <div data-aos="zoom-in-up">
           <img
             className="h-auto max-w-full rounded-lg object-cover object-center"
-            src={ex12}
+            src={ex28}
+            alt="gallery-photo"
+          />
+        </div>
+        <div data-aos="zoom-in-up">
+          <img
+            className="h-auto max-w-full rounded-lg object-cover object-center"
+            src={ex23}
+            alt="gallery-photo"
+          />
+        </div>
+        <div data-aos="zoom-in-up">
+          <img
+            className="h-auto max-w-full rounded-lg object-cover object-center"
+            src={ex24}
+            alt="gallery-photo"
+          />
+        </div>
+        <div data-aos="zoom-in-up">
+          <img
+            className="h-auto max-w-full rounded-lg object-cover object-center"
+            src={ex25}
             alt="gallery-photo"
           />
         </div>
