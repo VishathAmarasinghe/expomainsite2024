@@ -6,7 +6,7 @@ import Aboutnew from "./Components/NewAbout/Aboutnew";
 import Pathsection from "./Components/Pathsection";
 import Sponsors from "./Components/Slider/Sponsors";
 import Gallarynew from "./Components/Teamcompnew/Gallarynew";
-import Testimonials from "./Components/Testimonials/testimonials";
+
 import { StickyNavbar } from "./Components/navbar/navbar";
 import Footer from "./Footer/Footer";
 import OC from "./OrganizingCommitee/OC";
@@ -14,6 +14,7 @@ import OC from "./OrganizingCommitee/OC";
 import "aos/dist/aos.css";
 import Aos from "aos";
 import { useEffect } from "react";
+import Testimonials from "./Components/Testimonials/Testimonials";
 
 export default function App() {
   useEffect(()=>{
